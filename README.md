@@ -1,2 +1,2 @@
 # icon_font
-bulleted lists with google icon font
+Bulleted lists with google icon font rather than images
