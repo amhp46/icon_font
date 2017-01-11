@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+ 
+<!--google icon font link-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      
+      
+     <style> 
+
+   
+		  
+	ul.icon {
+    list-style: none; /* Remove list bullets */
+  padding-left: 1em;
+		text-indent: -3.5em;/* for hanging indent */
+		margin-left: 40px	
+}
+
+li.face { 
+    padding-left: 1em; 
+	margin-bottom: 1em !important;
+}
+
+li.face:before {padding-left: 1em; 
+   font-family: 'Material Icons';
+    content: "\E87C"; /* add the ISO value-the last 4 alphanumerics prefixed with a backslash. So &#xE87C become \E87C */
+    padding-right: 8px;
+	vertical-align: middle; /*font icons don't seem to align right without this*/
+	font-size: 1.5em;
+    color: #cc0000; 	
+}	
+		 
+		 li.check { 
+    padding-left: 1em; 
+			 margin-bottom: 1em !important;
+}
+
+li.check:before {padding-left: 1em; 
+   font-family: 'Material Icons';
+    content: "\E862"; /* add the ISO value-the last 4 alphanumerics prefixed with a backslash. So &#xE87C become \E87C */
+    padding-right: 8px;
+	vertical-align: middle; /*font icons don't seem to align right without this*/
+	font-size: 1.5em;
+    color: #cc0000; 
+	margin-bottom: 3em;
+}
+		 
+
+		 
+	</style>
+      
+    
+</head>
+
+<body >
+<div style="max-width:500px; margin:auto;" >
+  <p><i class="material-icons">&#xE87C</i>
+    <i class="material-icons orange600">face</i><br>
+<br>
+
+     
+     
+     I <i class="material-icons" style="color: #990000; vertical-align: middle">&#xE87D;</i> font icons
+      
+  </p>
+  <ul class="icon">
+    <li class="face">hola como estas yo estoy bien gracias y tu? hola como estas yo estoy bien gracias y tu? </li>
+    <li class="face">hola</li>
+    <li class="face">hola </li>
+     <li class="check">hola </li>
+      <li class="check">hola </li>
+  </ul>
+  <br>
+<br>
+Google icons:
+https://material.io/icons/#ic_assignment_turned_in
+  to get the value for use in CSS content use the last 4 alphanumerics prefixed with a backslash. So '&#xf058' becomes  \f058
+</div>
+</body>
+</html>
